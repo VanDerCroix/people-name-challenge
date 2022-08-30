@@ -11,6 +11,26 @@ git clone https://github.com/VanDerCroix/people-name-challenge.git
 npm run start
 ```
 
+## Unit Tests
+Run unit test and print coverage report command
+
+```
+npm run test:coverage
+```
+Output (current coverage report)
+```
+  11 tests passed
+--------------|---------|----------|---------|---------|-------------------
+File          | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s 
+--------------|---------|----------|---------|---------|-------------------
+All files     |     100 |       95 |     100 |     100 | 
+ globals.js   |     100 |      100 |     100 |     100 | 
+ parser.js    |     100 |      100 |     100 |     100 | 
+ processor.js |     100 |       90 |     100 |     100 | 38
+ utils.js     |     100 |      100 |     100 |     100 | 
+--------------|---------|----------|---------|---------|-------------------
+```
+
 ## Global Variables
 
 **file src/globals.js contains all required variables**
